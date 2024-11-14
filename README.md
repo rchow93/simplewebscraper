@@ -6,3 +6,8 @@ In any good AI and RAG application, you need to have a good dataset so scraping 
 The simple app can be run from the command line from most linux distributions but remember to chmod+x on the file so that it can be executed. You will also need to install all libraries in the requirements.txt.
 
 Basic Usage:
+#Providing the page to explicitly to scrape.
+./new-scraper.py https://docs.llamaindex.ai/en/stable/examples/output_parsing/guidance_sub_question/
+
+#If no settings are provided - it will default to the page variable, default_url which is by default set to:
+https://docs.llamaindex.ai/en/stable/examples/
