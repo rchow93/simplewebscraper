@@ -7,7 +7,10 @@ The simple app can be run from the command line from most linux distributions bu
 
 Basic Usage:
 #Providing the page to explicitly to scrape.
-./new-scraper.py https://docs.llamaindex.ai/en/stable/examples/output_parsing/guidance_sub_question/
+./scraper.py https://docs.llamaindex.ai/en/stable/examples/output_parsing/guidance_sub_question/
 
 #If no settings are provided - it will default to the page variable, default_url which is by default set to:
 https://docs.llamaindex.ai/en/stable/examples/
+
+#Optional Switches:
+--t This Sets the time to wait before scraping the page - default is 2s if none is provided.
